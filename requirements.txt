@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 flask
-google-genai
+gunicorn
+google-generativeai
 pymongo
-=======
-flask
-google-genai
-pymongo
->>>>>>> d12bc8c (ai_chatbot)
