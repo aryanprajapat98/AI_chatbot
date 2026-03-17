@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 flask
 google-genai
 pymongo
+=======
+flask
+google-genai
+pymongo
+>>>>>>> d12bc8c (ai_chatbot)

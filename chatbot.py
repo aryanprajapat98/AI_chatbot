@@ -127,7 +127,7 @@ def chat():
         """
         
         response = client_ai.models.generate_content(
-            model="gemini-2.5-flash", 
+            model="gemini-2.5-flash-lite", 
             contents=prompt
         )
         bot_reply = response.text.strip()
@@ -153,4 +153,5 @@ def delete_chat(chat_id):
     return redirect(url_for('admin_dashboard'))
 
 if __name__ == "__main__":
+
     app.run(debug=True, port=5000)
